@@ -31,7 +31,6 @@ class BLE extends JSONRPC {
         this._extensionId = extensionId;
         this._peripheralOptions = peripheralOptions;
         this._runtime = runtime;
-
         this._socket.open();
     }
 
